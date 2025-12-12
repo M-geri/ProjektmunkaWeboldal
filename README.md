@@ -13,3 +13,5 @@
 - A galéria, linkek, kapcsolat összevonva.
 - Sörtérkép és a statisztika összevonva.
 - A legújabb szerzemények évenként menüpont törlésre kerül és a menüpontok egyikénél lehet majd megtalálni átalakítva.
+### Trello
+https://trello.com/b/psiDkyB1/kanban-template
