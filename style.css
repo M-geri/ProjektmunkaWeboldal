@@ -1,0 +1,20 @@
+*{
+        color: white;
+}
+body{
+    background-image: url(images/Kezdő\ lap\ kep.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+h1{
+    margin: auto;
+    padding: 25px;
+    text-align: center;
+    background-color: rgba(33, 37, 41, 0.5);
+    height: 100px;
+
+}
+.logo{
+    width: 50px;
+}
