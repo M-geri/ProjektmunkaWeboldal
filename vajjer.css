@@ -1,0 +1,99 @@
+/* Alap stílusok */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+/* Alap színek és tipográfia */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #ffffff;
+    background-image: url(images/Kezdő\ lap\ kep.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+
+header .container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 18px;
+}
+
+
+main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+section h1 {
+
+    color: #000000;
+}
+
+section p {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 40px;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+p 
+{
+    padding: 1em;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    line-height: 1.6;
+}
