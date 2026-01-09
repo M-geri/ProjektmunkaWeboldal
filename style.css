@@ -18,3 +18,21 @@ h1{
 .logo{
     width: 50px;
 }
+#karkep{
+    height: 200px;
+    width: 286px;
+}
+#kartya{
+    height: 540px;
+}
+p{
+    background-color: rgba(33, 37, 41, 0.5);
+    padding: 10px;
+}
+h3{
+    background-color: rgba(33, 37, 41, 0.5);
+}
+#meret{
+    width: 350px;
+    height: 300px;
+}
