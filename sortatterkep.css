@@ -1,0 +1,83 @@
+ body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            
+            background:url(hogyan-keszul-a-sor_1920x730-1920x730.jpg) no-repeat center center fixed;
+            background-size: cover;
+            color: #fff;
+        }
+
+        header {
+            background-color: rgba(0, 0, 0, 0.6);
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        }
+
+        main {
+            padding: 30px;
+            background-color: rgba(0, 0, 0, 0.7);
+            border-radius: 8px;
+            margin: 20px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+        }
+
+        h1, h2 {
+            color: #ffeb3b; /* Aranysárga szín */
+        }
+
+        h2 {
+            margin-top: 20px;
+        }
+
+        section {
+            margin-bottom: 40px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: center;
+            border: 1px solid #ffeb3b;
+        }
+
+        th {
+            background-color: #ff5722; /* Narancssárga szín */
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background-color: #333;
+        }
+
+        tr:nth-child(odd) {
+            background-color: #444;
+        }
+
+        tr:hover {
+            background-color: #555;
+        }
+
+        .sor-terkep img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        ul {
+            line-height: 1.8;
+        }
