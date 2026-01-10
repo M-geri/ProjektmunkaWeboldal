@@ -1,4 +1,4 @@
-/* Alap stílusok */
+
 * {
     margin: 0;
     padding: 0;
@@ -6,8 +6,9 @@
     color: white;
 }
 
-/* Alap színek és tipográfia */
+
 body {
+    margin: 0;
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
     background-color: #f4f4f4;
@@ -79,7 +80,6 @@ ul {
 
 
 footer {
-    background-color: #333;
     color: white;
     padding: 20px 0;
     text-align: center;
@@ -90,10 +90,72 @@ footer p {
     font-size: 14px;
 }
 
-p 
-{
+p {
     padding: 1em;
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 10px;
     line-height: 1.6;
+}
+
+.felsor {
+    padding: 1em;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    line-height: 1.6;
+
+}
+
+.osz {
+    float: left;
+}
+
+.osz1 {
+    float: inline-start;
+
+}
+
+.osz2 {
+    float: inline-start;
+}
+.osz3 {
+    float: inline-start;
+
+}
+
+.osz4 {
+    float: inline-start;
+}
+.osz5 {
+    float: inline-start;
+}
+
+.link {
+    clear: both;
+    display: block;
+    float: none;
+    position: static;
+    padding: .75rem 1rem;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.705);
+    color: #eee;
+    padding: 6px 12px;
+    background: rgba(0,0,0,.35);
+    backdrop-filter: blur(4px);
+    border-radius: 6px;
+    color:rgb(194, 98, 2);
+    text-decoration: none;
+
+
+}
+h3,h2{
+    padding: 1em;
+    background-color: rgba(0, 0, 0, 0.932);
+    border-radius: 50px;
+    line-height: 1.6;
+
+}
+h1{
+    text-align: center;
+    padding: 30px;
+    
 }
