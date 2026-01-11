@@ -2,9 +2,11 @@
         color: white;
 }
 body{
-    background-image: url(images/Kezdő\ lap\ kep.jpg) ;
+    background-image: url(images/Kezdő\ lap\ kep.jpg);
     background-repeat: no-repeat;
+    background-attachment: fixed;
     background-size: cover;
+    background-position: center center;
     
 }
 h1{
@@ -13,6 +15,7 @@ h1{
     text-align: center;
     background-color: rgba(33, 37, 41, 0.5);
     height: 100px;
+    border-radius: 20px;
 
 }
 .logo{
@@ -21,18 +24,28 @@ h1{
 #karkep{
     height: 200px;
     width: 286px;
+    border-radius: 20px;
 }
 #kartya{
     height: 540px;
+    border-radius: 20px;
 }
 p{
     background-color: rgba(33, 37, 41, 0.5);
     padding: 10px;
+    border-radius: 20px;
 }
 h3{
     background-color: rgba(33, 37, 41, 0.5);
+    padding: 10px;
+    border-radius: 20px;
 }
 #meret{
     width: 350px;
     height: 300px;
+}
+.kapcs{
+    font-weight: bold;
+    background-color: rgba(33, 37, 41, 0.7);
+    font-size: 20px;
 }

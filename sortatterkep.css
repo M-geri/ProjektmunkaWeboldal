@@ -1,3 +1,7 @@
+*{
+    color: white;
+} 
+ 
  body {
             font-family: 'Arial', sans-serif;
             margin: 0;
@@ -42,6 +46,7 @@
             margin-top: 20px;
             border-radius: 8px;
             overflow: hidden;
+            color: white;
         }
 
         th, td {
